@@ -31,6 +31,7 @@ header {
 	padding: 20px;
 	margin-bottom: 20px;
 	color: rgb(133, 136, 140)
+	border: 2px solid rgb(208, 202, 195);
 }
 
 #about_me_sign {
@@ -62,6 +63,7 @@ header {
 	position: absolute;
 	top: 0;
 	right: -30px;
+	border: 1px solid rgb(208, 202, 195);
 }
 
 #connect_sign {
