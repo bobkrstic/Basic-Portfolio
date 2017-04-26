@@ -13,9 +13,9 @@
 		<ol>
 			<li id="name">Bob Krstic</li>
 
-			<li id="contact"><a href="#">Contact</a></li>
-			<li id="portfolio"><a href="#">Portfolio</a></li>
-			<li id="about"><a href="#">About</a></li>
+			<li id="contact"><a href="contact.html">Contact</a></li>
+			<li id="portfolio"><a href="portfolio.html">Portfolio</a></li>
+			<li id="about"><a href="index.html">About</a></li>
 		</ol>
 	</header>
 
@@ -23,32 +23,28 @@
 
 
 	<div>
-		<!-- <section id="contact_wrap"> -->
+		<section class="contact_wrap">
 			<h1 id="contact_sign">Contact</h1>
 
-		
-
-			<form action="/action_page.php">
-						  First name:<br>
-						  <input type="text" value="Mickey">
-						  <br>
-						  Last name:<br>
-						  <input type="text" name="lastname" value="Mouse">
-						  <br><br>
-
-							<textarea rows="30" cols="90">
-							At w3schools.com you will learn how to make a website. We offer free tutorials in all web development technologies.
-							</textarea>
-
-
-						  <br><br>
-						  <input type="submit" value="Submit">
-
-						  <br><br>
-			</form> 
-				
-		<!-- </section> -->
-
+			<form method="post" name="contact_form" action="contact-form-handler.php">
+				<br>
+				<br>
+			    <span>Your Name:</span> <br><br>
+			    <input id="type_your_name" type="text" name="name">
+			    <br>
+			    <br>
+			    <span>Email Address:</span> <br><br>
+			    <input id="email_address" type="text" name="email" cols="90">
+			    <br>
+			    <br>
+			    <span>Message:</span> <br><br>
+			    <textarea id="text_area" name="message" rows="30" cols="83"></textarea>
+			    <br>
+			    <br>
+			    <input id="submit" type="submit" value="Submit"> <br>
+			</form>
+				<br>
+		</section>
 
 
 		<section id="connect_with_me">

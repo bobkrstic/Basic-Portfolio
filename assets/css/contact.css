@@ -25,11 +25,51 @@ header {
 }
 
 #contact_sign {
-	padding: 0px 0px 20px 20px;
-	border-bottom: 1px solid rgb(219,219,219);
+	padding: 0px 0px 20px 10px;
+	border-bottom: 3px solid rgb(219,219,219);
 	font-size: 140%;
 }
 
+.contact_wrap {
+	width: 565px;
+	padding: 20px 20px 0px 20px;
+	background-color: rgb(255, 255, 255);
+	margin-bottom: 20px;
+}
+
+input {
+	width: 520px;
+}
+
+#submit {
+	width: 70px;
+	height: 30px;
+	background-color: rgb(65, 160, 155);
+	border: 1px solid rgb(219,219,219);
+	color: rgb(255, 255, 255);
+}
+
+span {
+	color: rgb(133, 136, 140);
+}
+
+#type_your_name {
+	border: 1px solid rgb(219,219,219);
+	padding: 10px;
+	color: black;
+}
+ 
+
+#email_address {
+	border: 1px solid rgb(219,219,219);
+	padding: 10px;
+	color: black;
+}
+
+#text-area {
+	border: 1px solid rgb(219,219,219);
+	color: black;
+}
 
 
 #connect_with_me {
